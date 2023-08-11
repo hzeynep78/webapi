@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.4.0/dist/ol.css">
+</head>
+<body>
+    <nav>
+        <button id="addDoorBtn">Add Door</button>
+        <button id="queryDoorBtn">Query Door</button>
+    </nav>
+    <div id="map" class="map"></div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <input type="text" id="xInput" placeholder="X Koordinatı">
+            <input type="text" id="yInput" placeholder="Y Koordinatı">
+            <input type="text" id="nameInput" placeholder="Kapı İsmi">
+            <div id="datatableContainer"></div>
+            <button id="saveBtn">Kaydet</button>
+            <button id="cancelBtn">İptal</button>
+            
+        </div>
+    </div>
+    <div id="messageBox" class="message-box"></div> <!-- Yeni eklenen div elementi -->
+    <script src="https://cdn.jsdelivr.net/npm/ol@v7.4.0/dist/ol.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
