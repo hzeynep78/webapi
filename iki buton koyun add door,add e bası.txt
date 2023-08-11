@@ -1,8 +1,0 @@
-iki buton koyun add door,add e basınca bir çizim aracı aktif olacak(openlyers draw feauture bak)tıkladığında bir moodle gelecek js panel kullanılcak.3 input olacak,x,y koordinatları, name alanı(kapıismi). kaydet ve iptal butonları olsun.
-
-fetch api
-
-bağladıktan sonra kaydete tıkladıktan sonra apiye istek atsın o da gerekli işlemleri yapıp db ye kaydetsin
-
-query door diye bir buton olacak navbarda,js panel açılacak, tablo olacak(datatable kullanılabilir).açıldığında fetch apiyi kullanarak
-verileri datatable a yazılcak,  
